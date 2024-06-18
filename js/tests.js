@@ -10,7 +10,9 @@ function testSum() { //eslint-disable-line
   }
 }
 
-testSum();
+
+testSum(); //esta siendo llamada para que pueda hacer algo en la consola.
+
 
 function testMultiply() { //eslint-disable-line
   if (multiply(5,9)[0] === 45 && multiply(5,9)[1] === 'The product of 5 and 9 is 45.') {
