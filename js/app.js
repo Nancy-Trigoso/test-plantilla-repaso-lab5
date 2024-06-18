@@ -30,6 +30,9 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
+    const producto = a * b;
+    const   mensaje = "The product of " + a + " and " + b + " is " + producto + ".";
+    return [producto, mensaje];
 
 }
 
